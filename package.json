@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint .",
     "test": "jest --coverage"
   },
   "repository": {
@@ -20,6 +21,7 @@
     "@babel/cli": "^7.19.3",
     "@babel/core": "^7.20.5",
     "@babel/preset-env": "^7.20.2",
+    "@types/jest": "^29.2.4",
     "babel-jest": "^29.3.1",
     "eslint": "^8.29.0",
     "eslint-config-airbnb-base": "^15.0.0",
